@@ -1,0 +1,86 @@
+.Forms{
+    display: flex;
+    justify-content: center;
+
+    form{
+        border: 1px solid #000;
+        margin: 0 2rem;
+        padding: 30px 50px;
+    }
+}
+
+.enviar{
+    color: white;
+    background-color: var(--blue-900);
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.5s;    
+    border: 0;  
+}
+.enviar:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.048);
+    color: var(--blue-900);
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+
+    div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.divMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+
+    border: 1px solid #000;
+
+    ul{
+        border-left: 2px solid #000;
+        border-right: 2px solid #000;
+    }
+
+    li{
+        text-decoration: none;
+        list-style: none;
+        margin: 0 5rem;
+        color: white;
+    }
+}
+
+.divColumn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+
+}
+.btn{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+    button{
+        color: white;
+        background-color: var(--blue-900);
+        padding: 10px;
+        border-radius: 6px;
+        transition: 0.5s;    
+        border: 0;   
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.048);
+        color: var(--blue-900);
+    }
+}
